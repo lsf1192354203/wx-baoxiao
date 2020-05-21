@@ -1,0 +1,100 @@
+
+/*标题头，只改字间距就可以了*/
+.title{width: 105mm;left: 96mm;}
+
+.title table .null1{width: 21mm;}
+.title table .w1{width: 11mm;}
+/*.title table .t1{width: 4mm;}*/
+.title table .null2{width: 20mm}
+/*.content-div table td{height: 10mm;}*/
+.content-div table td.y-m-d table td{border-top: 0;}
+.content-div table.content-table tr>td{height: 10.4mm;}
+/*div.editable{ line-height:14mm;}*/
+input.editable{display:inline-block; font-size:14px;}
+/*定义表格列宽*/
+.colu1{width: 33mm;height: 10mm;}
+/*.colu2{width: 40mm;}*/
+/*.colu3{width: 124mm;}*/
+.colu4{width: 37.5mm;}
+.row0 td{height: 0;}
+/*.y-m-d{width: 54mm;}*/
+.y-m-d table{border-spacing: 0;border-collapse: collapse;width: 100%; table-layout: fixed;}
+.y-m-d table td{text-align: center;border:0;}
+.y-m-d table .null1{width: 5mm;}
+.y-m-d table .w1{width: 7mm;}
+.y-m-d table .w2{width: 13mm;}
+.y-m-d table .t1{width: 4mm;}
+/*.y-m-d table .null2{width: 6mm}*/
+
+/*表的列宽度、行高度*/
+/*.col-1{width:39mm;}
+.col-2{width:26mm;}
+.col-3{width:37mm;}
+.col-4{width:26mm;}
+.col-5{width:35.8mm;}
+.col-6{width:26mm;}
+.col-7{width:41.5mm;}
+集体企业列
+.col-8{width:89mm;}
+.col-9{width:67.5mm;}*/
+
+/*.audit-chu-chai{height:23mm!important;}审核行
+.chu-chi-footer{border:none!important; text-align:left!important; text-indent:-2em; padding-left:2em;    line-height: 6mm;}最底部的说明
+
+.content-div table .content-header .h1{width:16mm; padding-left:11mm;}
+.content-div table .content-header .h2{width:93mm;}*/
+.content-div table .h8{width: 17mm; border:none;}
+
+/*.content-div table .h9{height: 9.5mm;}*/
+/*.content-div table .amount{width: 142mm;}*/
+.content-div table .amount .h9{width: 7mm;}
+.content-div table td.amount td{border:none;}
+.content-div table .h10{width: 5mm; border:none;}
+.content-div table .h11{width: 10mm; border:none;}
+.thrRow td.amount .t1{width: 4mm;}
+.thrRow .t1,.thrRow .h9{width: 5.2mm;}
+.content-div table .thrRow .t1{height: 9.5mm;}
+.content-div table .thrRow .h9{height: 10.5mm;}
+
+/*footer*/
+.content-div table.peo .row1 td{width: 34mm;}
+/*.content-div table.peo .row1 td.letter{letter-spacing: -1mm;}*/
+/*.content-div table.peo .row1 td.letter2{letter-spacing: -1.4mm;}*/
+
+/*借款金额*/
+/*.content-div table td.amount2 .first td{border-bottom: 0.2mm solid #000000;}*/
+/*.content-div table td.amount2 .sec td{border-bottom:0.2mm solid #000000;}*/
+/*
+.content-div table td.amount2 td{border:none;height: 8mm;border-right:0.2mm solid #000000;}
+.content-div table td.amount2 td:last-child{border-right: 0;}*/
+/*第一行输入行高限制*/
+/*.content-header div.editable{line-height: 7mm!important;}
+
+.content-div table .content-header .h2 .editable{width:92mm;}
+.content-div table .h8 .editable{width: 18mm;}
+.content-div table .h9 .editable{width: 8mm;}*/
+/*.edit-1{width:108mm;}
+.edit-2{width:66mm;}
+.edit-3{width:193mm;}*/
+
+
+/*.font_11{line-height: 6mm!important;}
+.font_10{line-height: 6mm!important;}
+
+
+最后一个站位行
+.row-placeholder td{border:none!important;}*/
+.content-div table.content-table td.remark{height: 21.5mm;text-align: left;vertical-align: top;}
+/*footer*/
+.content-div table.peo .row1 td{width: 32.8mm;}
+/*编辑框宽度设置*/
+.tdedit-1,.tdedit-2,.tdedit-3{box-sizing: border-box;}
+.tdedit-0{	width: 136mm;}
+.tdedit-1{	width: 10mm;}
+.tdedit-2{	width: 47mm;}
+.tdedit-3{	width: 177mm;}
+.s0{width: 15mm;}
+.s1{width: 6mm;}
+.ft1{width: 30mm;min-height: 19mm;}
+.ft2{width: 220mm;min-height: 15mm;}
+.mh{min-height: 19mm;}

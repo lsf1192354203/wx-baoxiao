@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'JingDianCuSongJW';
+	src: url('../fonts/jdcsj.woff');
+}
+@font-face {
+	font-family: 'SimSun';
+	src: url('../fonts/simsun.ttf');
+}
+body{margin: 0;padding: 0;}
+/*总体容器，定义A4纸*/
+.container {position:relative; top:0mm; left:0mm; width:297mm; height:200mm; margin:auto;font-size: 13pt; font-family:'SimSun';color: #000000;}
+
+/*标题*/
+.title {position:absolute;top:16.5mm; }
+.title p{font-size:28pt; margin:0mm;text-align: center;font-family:'JingDianCuSongJW';font-weight:bolder;letter-spacing: 3.5mm;text-indent: 3.5mm;}/*字*/
+.title div.line{width:100%; border-top:0.3mm solid #000000; border-bottom:0.3mm solid #000000; height:0.8mm; margin-bottom: 4mm;margin-top:2mm;}/*横线*/
+/*标题下面 年月日*/
+.title table{border-spacing: 0;border-collapse: collapse;}
+.title table td{text-align: center;}
+
+/*集体企业标题*/
+.jtqy-title {position:absolute; left:52mm; top:26mm; }
+.jtqy-title p{font-size:25pt; letter-spacing:0.8mm; padding:0 1mm 0 2mm; margin:0mm; text-align:left; 
+/*font-family:'JingDianCuSongJW';*/font-weight:bolder;}/*字*/
+.jtqy-title div{ border-top:0.3mm solid #000000; border-bottom:0.3mm solid #000000; height:0.8mm; margin-top:1.5mm;}/*横线*/
+
+/*logo图片*/
+.logo {position:absolute; top:18mm; left:210mm;}
+.logo img{width:65mm;}
+
+/*装订线*/
+.zdx {position:absolute; left:20mm; top:59mm; width:5mm; height:91mm; border:1px solid #FFFFFF;}
+.zdx p{padding:0mm; margin:0mm;}/*字*/
+.zdx div{width:0.3mm; height:19mm; border-left:0.3mm dashed #000000; margin-left:2mm;}/*竖线*/
+
+/*内容表*/
+.content-div {position:absolute; left: 38mm; top: 44.5mm;/* width:236.5mm;*/}
+/*.content-div .t1{width: 6mm;}/*单字宽度*/*/
+.qtqy-div{top: 44.5mm;}
+.content-div table{table-layout:fixed; border-collapse:collapse; /*width:auto;*/}
+.content-div table td{text-align:center; 
+border-bottom:0.2mm solid #000000; border-left:0.2mm solid #000000; border-left:0.2mm solid #000000; border-right:0.2mm solid #000000;}
+
+.content-div table .firstRow td{border-top:0.2mm solid #000000;}
+.content-div table .firstRow td.y-m-d{height: 10mm;}
+.content-div table .secRow td{height: 21.5mm;}
+.content-div table .ave td{height: 10.5mm;}
+/*.content-div table .thrRow td{height: 21.5mm;}*/
+.content-div table .content-header td{border:none; text-align:left; height:8mm;}
+.content-div table .content-header .h1{width:16mm; padding-left:6mm;}
+.content-div table .content-header .h2{width:98mm;}
+.content-div table .content-header .h3{width:22mm;text-align:right;}
+.content-div table .content-header .h4{width:40mm;}
+.content-div table .content-header .h5{width: 34mm;    padding-left: 1.5mm;}
+.content-div table .content-header .h6{width: 88mm;}
+.content-div table .content-header .h7{width: 50mm;}
+
+/*footer 负责人*/
+.content-div table.peo  td{text-align: left;vertical-align: top;letter-spacing: -0.5mm;}
+.content-div table.peo .row1 td{height:32mm;}
+.content-div table.peo .row2 td{height: 21.5mm;}
+.content-div table.peo .row1 td:first-of-type{width: 33mm;}
+.content-div table.peo td{
+border-right: 0.2mm solid #000000;
+border-top: 0;
+border-left:  0;
+border-bottom:   0;
+}
+table.peo td:last-of-type{border-right: 0;}
+
+/*审批行*/
+.audit-row td{vertical-align:middle; text-align:left!important;	height:28mm!important; padding-left:2mm;}
+.audit-row span{display:inline-block; width:6mm;}
+
+/*审批行内部的多列情况，如：报销部门——负责人*/
+.audit-row .audit-inner-table{ height:20mm!important;}
+.audit-row .audit-inner-table td{width:4.5mm; padding:0mm; border:none;}
+
+.noborder, .noborder td{border:none!important;}
+/*编辑格式*/
+.editable{display:block; line-height:7mm;min-height: 7mm;max-height:98%;}
+.editable:focus{border:0.1mm solid #778EE5;border-radius:2px;}
+.editable p{margin:0mm;}
+.al{text-align:left!important; padding-left:2mm;}
+.ac{text-align:center!important; ime-mode:disabled;}
+.ar{text-align:right!important; padding-right:2mm;}
+
+
+#dxMoney{letter-spacing:2mm;}
+#dxMoney img{    width: 20px;
+    margin-bottom: -4px;
+    margin-right: 2mm;}
+.kh{position:relative;    padding-top: 3px;width:4.5mm!important;}
+.kh:before{content:'('; transform:rotate(90deg);    display: block;position:absolute;    left: 1.1mm;top: -2.5mm;}
+.kh:after{content:')'; transform:rotate(90deg);    display: block;position:absolute;left:1.1mm;top:8.2mm;}
+.dropList{
+	position: absolute;
+    background: #fff;
+	display:none;
+	z-index:10;
+}
+.dropList ul{
+	padding: 1mm 0 0 0;
+    list-style: none;
+    margin: 0;
+	border: 1px solid #eee;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 4px 1px rgba(0,0,0,.18);
+}
+.dropList ul li{
+	padding: 1mm 0 1mm 1mm;
+    width: 75mm;
+	cursor:pointer;
+	text-align:left;
+	overflow:hidden;
+	text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.audit-inner-table img{width:4.5mm;display: block;}
